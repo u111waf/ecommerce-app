@@ -6,8 +6,13 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 <p align="center">
-  <img src="demo.gif" alt="App Demo" width="300"> | 
-  <img src="screenshot.png" alt="Screenshot" width="300">
+
+
+  <img src="![screen-recording-2-online-video-cuttercom-2_ap1kngPi-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/80753c75-b4a0-4178-897c-8ecc2fc42dc3)
+" alt="App Demo" width="300"> | 
+ <img width="872" alt="Screenshot" src="https://github.com/user-attachments/assets/9c19cedd-9f24-4443-8553-226be2ed2717" />
+
+
 </p>
 
 ## ✨ Features
