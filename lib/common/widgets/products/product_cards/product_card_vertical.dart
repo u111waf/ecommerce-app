@@ -84,9 +84,9 @@ class TProductCardVertical extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  const TProductTitleText(
+                  TProductTitleText(
                       title: 'Green Nike Air Shoes', smallSize: true),
-                  const SizedBox(height: TSizes.spaceBtwItems / 2),
+                  SizedBox(height: TSizes.spaceBtwItems / 2),
                   TBrandTitleVerifiedIcon(title: 'Nike'),
 
                   /// TODO: Add Spacer() to keep height of the box in some case 1 or 2 lines of headings
@@ -103,30 +103,24 @@ class TProductCardVertical extends StatelessWidget {
               children: [
                 /// Price
                 Padding(
-                  padding: EdgeInsets.only(
-                    left: TSizes.sm,
-                  ),
-                  child: TProductPriceText(
-                    price: '45.99',
-                  ),
+                  padding: EdgeInsets.only(left: TSizes.sm),
+                  child: TProductPriceText(price: '45.99'),
                 ),
 
                 /// Add to Cart Button
                 Container(
                   decoration: const BoxDecoration(
-                      color: TColors.dark,
-                      borderRadius: BorderRadius.only(
-                        topLeft: Radius.circular(TSizes.cardRadiusMd),
-                        bottomRight: Radius.circular(TSizes.productImageRadius),
-                      )),
+                    color: TColors.dark,
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(TSizes.cardRadiusMd),
+                      bottomRight: Radius.circular(TSizes.productImageRadius),
+                    ),
+                  ),
                   child: const SizedBox(
                     width: TSizes.iconLg * 1.2,
                     height: TSizes.iconLg * 1.2,
-                    child: Center(
-                        child: Icon(
-                      Iconsax.add,
-                      color: TColors.white,
-                    )),
+                    child:
+                        Center(child: Icon(Iconsax.add, color: TColors.white)),
                   ),
                 ),
               ],
